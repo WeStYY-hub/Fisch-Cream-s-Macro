@@ -10,8 +10,8 @@ If !FileExist("Settings.ini") {
 }
 IniRead, Control, Settings.ini, Fisch, Control 
 If (Control = "ERROR") {
-	IniWrite, 0.05, Settings.ini, Fisch, Control 
-	Control := "0.05"
+	IniWrite, 0.06, Settings.ini, Fisch, Control 
+	Control := "0.06"
 }
 Control := StrSplit(Control, "|")
 If (Control[2]) {
